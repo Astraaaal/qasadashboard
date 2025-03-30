@@ -37,7 +37,7 @@ const ActionButtons = ({
           View Detailed Report
         </Button>
 
-        {showPost && (
+        {/*{showPost && (
           <Button
             variant="outline"
             className="border-[#0078D7] text-[#0078D7] hover:bg-[#F0F0F0] hover:text-[#1C61A1]"
@@ -46,7 +46,7 @@ const ActionButtons = ({
             <Upload className="w-4 h-4 mr-2" />
             Post
           </Button>
-        )}
+        )}*/}
       </div>
 
       <div className="flex items-center gap-2">

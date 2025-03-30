@@ -32,6 +32,7 @@ import {
   DropdownMenuSeparator,
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
+import qasaLogo from '../assets/qASA-logo.png';
 
 interface NavItemProps {
   icon: React.ReactNode;
@@ -106,9 +107,10 @@ const TopNavigation = () => {
           {/* Logo and Mobile Menu Button */}
           <div className="flex items-center justify-between w-full md:w-auto">
             <div className="flex items-center gap-2">
-              <DollarSign size={24} className="text-[#0078D7]" />
+              <img src={qasaLogo} alt="Custom Logo" className="h-6 w-6" />
+              {/*<DollarSign size={24} className="text-[#0078D7]" />*/}
               <h1 className="text-xl font-bold text-[#20476E] font-sans">
-                AccuFinance
+                qASA
               </h1>
             </div>
 
@@ -155,7 +157,7 @@ const TopNavigation = () => {
                     <AvatarFallback>JD</AvatarFallback>
                   </Avatar>
                   <span className="text-sm font-medium text-gray-700">
-                    John Doe
+                    Michael Angelo Gonzales
                   </span>
                   <ChevronDown className="h-4 w-4 text-gray-500" />
                 </Button>
@@ -223,7 +225,7 @@ const TopNavigation = () => {
                     <AvatarFallback>JD</AvatarFallback>
                   </Avatar>
                   <span className="text-sm font-medium text-gray-700">
-                    John Doe
+                    Michael Angelo Gonzales
                   </span>
                 </div>
                 <Button variant="ghost" size="sm" className="text-gray-600">

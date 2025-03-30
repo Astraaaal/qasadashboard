@@ -44,9 +44,10 @@ const RevenueExpensesTrend = ({
 }: RevenueExpensesTrendProps) => {
   // Format currency for tooltip
   const formatCurrency = (value: number) => {
-    return new Intl.NumberFormat("en-US", {
+    return new Intl.NumberFormat("en-PH", {
+      currencySign: "standard",
       style: "currency",
-      currency: "USD",
+      currency: "PHP",
       minimumFractionDigits: 0,
       maximumFractionDigits: 0,
     }).format(value);
@@ -116,7 +117,7 @@ const RevenueExpensesTrend = ({
                 <YAxis
                   tick={{ fill: "#20476E" }}
                   axisLine={{ stroke: "#DCDCDC" }}
-                  tickFormatter={(value) => `$${value / 1000}k`}
+                  tickFormatter={(value) => `₱${value / 1000}k`}
                 />
                 <Tooltip content={<CustomTooltip />} />
                 <Line

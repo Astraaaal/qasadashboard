@@ -30,7 +30,7 @@ const PendingTransactions = ({
       id: "tx1",
       title: "Supplier Payment - ABC Corp",
       amount: 5280.75,
-      date: "2023-06-15",
+      date: "2024-06-15",
       priority: "high",
       description: "Overdue payment for office supplies",
     },
@@ -38,15 +38,15 @@ const PendingTransactions = ({
       id: "tx2",
       title: "Utility Bill - Electricity",
       amount: 1250.0,
-      date: "2023-06-18",
+      date: "2024-06-18",
       priority: "medium",
       description: "Monthly electricity bill payment",
     },
     {
       id: "tx3",
-      title: "Staff Reimbursement - John Doe",
+      title: "Staff Reimbursement - Michael Angelo Gonzales",
       amount: 350.25,
-      date: "2023-06-20",
+      date: "2024-06-20",
       priority: "low",
       description: "Travel expenses reimbursement",
     },
@@ -123,7 +123,7 @@ const PendingTransactions = ({
                     </p>
                     <div className="flex items-center mt-2 text-xs text-gray-500">
                       <span className="font-medium">
-                        ${transaction.amount.toFixed(2)}
+                        ₱{transaction.amount.toFixed(2)}
                       </span>
                       <span className="mx-2">•</span>
                       <span>

@@ -20,7 +20,7 @@ const DashboardLayout = ({ children }: DashboardLayoutProps = {}) => {
         <header className="h-14 bg-white border-b border-[#DCDCDC] flex items-center px-4 justify-between">
           <div className="flex items-center">
             <h1 className="text-xl font-bold text-[#20476E]">
-              Accounting Dashboard
+              Dashboard
             </h1>
           </div>
           <div className="flex items-center gap-4">
@@ -44,9 +44,9 @@ const DashboardLayout = ({ children }: DashboardLayoutProps = {}) => {
         {/* Footer */}
         <footer className="h-10 bg-white border-t border-[#DCDCDC] flex items-center justify-between px-6">
           <div className="text-xs text-gray-500">
-            © 2023 AccuFinance. All rights reserved.
+            © 2025 QTECH qASA. All rights reserved.
           </div>
-          <div className="text-xs text-gray-500">Version 1.0.0</div>
+          <div className="text-xs text-gray-500">Version UI</div>
         </footer>
       </div>
     </div>
