@@ -44,7 +44,7 @@ const DashboardLayout = ({ children }: DashboardLayoutProps = {}) => {
         {/* Footer */}
         <footer className="h-10 bg-white border-t border-[#DCDCDC] flex items-center justify-between px-6">
           <div className="text-xs text-gray-500">
-            © 2025 QTECH qASA. All rights reserved.
+            © 2025 qASA QTECHBSI. All rights reserved.
           </div>
           <div className="text-xs text-gray-500">Version UI</div>
         </footer>
