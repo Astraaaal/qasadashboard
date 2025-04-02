@@ -1,7 +1,9 @@
 @tailwind base;
   @tailwind components;
   @tailwind utilities;
-
+{/* the :root defines the global styles
+  tailwind uses HSL in color for example : --background: 0 0% 100% <--- this turns into WHITE
+  */}
   @layer base {
     :root {
       --background: 0 0% 100%;
