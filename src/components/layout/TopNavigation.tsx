@@ -41,6 +41,7 @@ interface NavItemProps {
   isActive?: boolean;
 }
 
+
 const NavItem = ({ icon, label, path, isActive = false }: NavItemProps) => {
   return (
     <TooltipProvider>
@@ -171,7 +172,7 @@ const TopNavigation = () => {
                 </DropdownMenuItem>
                 <DropdownMenuItem>
                   <Settings className="mr-2 h-4 w-4" />
-                  <span>Settings</span>
+                  <span>Theme</span>
                 </DropdownMenuItem>
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>

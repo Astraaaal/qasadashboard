@@ -25,7 +25,7 @@ const DashboardLayout = ({ children }: DashboardLayoutProps = {}) => {
           </div>
           <div className="flex items-center gap-4">
             <div className="bg-[#F0F0F0] px-3 py-1 rounded-md text-sm text-[#20476E]">
-              <span>Last updated: {new Date().toLocaleDateString()}</span>
+              <span>Last updated: {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
             </div>
             {/*<Button
               variant="outline"
